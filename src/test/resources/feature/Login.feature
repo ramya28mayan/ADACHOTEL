@@ -10,7 +10,7 @@ Feature: Verifying the login functionality in Adactin Hotel
 
     Examples: 
       | username       | password |
-      | IronmanCaptain | DLXY5Q   |
+      | IronmanCaptain | A7U0DG |
 
  
  @adactin_InvalidLogin_logout
@@ -25,16 +25,4 @@ Feature: Verifying the login functionality in Adactin Hotel
       | username       | password |
       | IronmanCaptain | wrongpassword|
       
-      
-      
- @adactin_InvalidLogin_logout
-  Scenario: Verify the forgot password Funtionality
-    Given User should launch the browser
-    When User click on forgot password
-    Then Print the error message
-
-    
- 
-      
-    
       

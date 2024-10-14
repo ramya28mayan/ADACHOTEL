@@ -15,4 +15,4 @@ Feature: Verifying the booking functionality
 
     Examples: 
       | username       | password |
-      | IronmanCaptain | DLXY5Q   |
+      | IronmanCaptain | A7U0DG   |
